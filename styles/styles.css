@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 70px 0;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.header-name {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    word-spacing: 6px;
+    font-size: 40px;
+}
+
+.cover {
+    background-image: url('../images/IMG_7559.WEBP');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+}
+
+.date {
+    background-color: #dddbd7;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding: 30px;
+}
+.feelings {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
+.about {
+    background-color: #dddbd7;
+    padding: 0 30px;
+}
+
+.about-title {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.about-title_left {
+    align-self: flex-start;
+    font-family: "Monsieur La Doulaise", cursive;
+    font-size: 100px;
+    font-weight: 200;
+    letter-spacing: 10px;
+    padding: 0 10px;
+    color: #53583e;
+}
+
+.about-title_right {
+    align-self: flex-end;
+    font-size: 20px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px 0;
+    text-transform: lowercase;
+}
+
+.about-text_bottom {
+}
+
+
+
