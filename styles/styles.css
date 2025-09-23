@@ -1,3 +1,11 @@
+:root {
+    --color-beige_light: #dddbd7;
+    --color-beige: #aea38e;
+    --color-brown: #593b1f;
+    --color-green: #53583e;
+    --color-white: #fff;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -28,7 +36,7 @@
 }
 
 .date {
-    background-color: #dddbd7;
+    background-color: var(--color-beige_light);
     text-align: center;
     font-weight: 500;
     font-size: 20px;
@@ -41,7 +49,7 @@
     letter-spacing: 3px;
 }
 .about {
-    background-color: #dddbd7;
+    background-color: var(--color-beige_light);
     padding: 0 30px;
 }
 
@@ -57,7 +65,7 @@
     font-weight: 200;
     letter-spacing: 10px;
     padding: 0 10px;
-    color: #53583e;
+    color: var(--color-green);
 }
 
 .about-title_right {
@@ -69,12 +77,11 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 60px 0;
+    padding: 60px 0 30px;
     text-transform: lowercase;
 }
 
-.about-text_bottom {
-}
+
 
 
 
