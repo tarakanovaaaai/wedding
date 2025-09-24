@@ -190,9 +190,9 @@
 
 .dress-code_text {
     text-align: start;
-    letter-spacing: 2px;
-    word-spacing: 4px;
-    font-size: 17px;
+    line-height: 23px;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 15px;
     padding: 10px 20px 0 38px;
 }
 
