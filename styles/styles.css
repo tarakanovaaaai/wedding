@@ -108,16 +108,54 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 350px;
+    min-height: 335px;
 }
 
+.countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-green);
+    color: var(--color-beige_light);
+    text-transform: uppercase;
+    padding: 0 0 20px;
+}
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px;
+}
+
+.time-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number-time {
+    font-size: 27px;
+}
+
+.label {
+    text-transform: lowercase;
+    color: var(--color-beige);
+    font-size: 10px;
+    padding: 5px 0;
+}
+
+
 .dress_code {
+    padding: 30px 0 30px;
+    background-color: var(--color-beige_light);
+}
+
+.logo-dress_code {
     text-align: center;
     font-family: "Monsieur La Doulaise", cursive;
     font-size: 40px;
     letter-spacing: 3px;
-    padding: 30px 0 60px;
-    background-color: var(--color-beige_light);
 }
 
 .ellipse-container, .circle-container {
@@ -135,7 +173,7 @@
 }
 
 .ellipse-yellow {
-    background-color: #f5ebc8;
+    background-color: #ffeda8;
 }
 
 .ellipse-green {
@@ -158,6 +196,10 @@
     background-color: #c2b0a4;
 }
 
+.ellipse-blue {
+    background-color: #93a9d2;
+}
+
 .circle {
     border-radius: 50%;
     width: 40px;
@@ -165,7 +207,7 @@
 }
 
 .circle-yellow {
-    background-color: #f5ebc8;
+    background-color: #ffeda8;
 }
 
 .circle-green {
@@ -188,13 +230,51 @@
     background-color: #c2b0a4;
 }
 
+.circle-blue {
+    background-color: #93a9d2;
+}
+
 .dress-code_text {
     text-align: start;
-    line-height: 23px;
-    font-family: "Comfortaa", sans-serif;
-    font-size: 15px;
-    padding: 10px 20px 0 38px;
+    line-height: 25px;
+    font-weight: 300;
+    font-size: 17px;
+    padding: 20px 20px 0 20px;
 }
+
+.photo {
+    background-color: var(--color-beige_light);
+    padding: 20px 10px 30px;
+}
+
+.photo_title {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: var(--color-beige);
+    text-underline-offset: 7px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.photo_for-girl {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    min-height: 322px;
+    background-image: url('../images/IMG_9373.JPG');
+}
+
+.photo_for-man {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    min-height: 322px;
+    background-image: url('../images/IMG_9380.JPG');
+}
+
+
 
 
 
