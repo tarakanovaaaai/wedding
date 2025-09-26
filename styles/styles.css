@@ -291,7 +291,7 @@
     text-transform: uppercase;
     text-align: center;
     gap: 30px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .photo-location {
@@ -303,6 +303,20 @@
     background-image: url('../images/IMG_9383.PNG');
 }
 
+.location-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    gap: 23px;
+    color: var(--color-beige_light);
+}
+
 .location-title {
     text-align: center;
     font-weight: 700;
@@ -310,6 +324,7 @@
 }
 
 .map-wrapper {
+    padding: 10px;
 }
 
 
