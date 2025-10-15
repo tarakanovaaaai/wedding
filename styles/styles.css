@@ -429,7 +429,10 @@
 .schedule-touch:active {
     background: var(--color-green);
     color: var(--color-beige_light);
+    transition: all 0.1s ease;
     transform: scale(110%);
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .schedule-active:hover::after {
@@ -444,6 +447,7 @@
     content: "~ просим не опаздывать ~";
     position: absolute;
     top: 100%;
+    touch-action: manipulation;
     color: var(--color-green);
     font-size: 14px;
 }
