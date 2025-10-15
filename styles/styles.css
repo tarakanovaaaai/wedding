@@ -426,7 +426,21 @@
     transform: scale(110%);
 }
 
+.schedule-touch:active {
+    background: var(--color-green);
+    color: var(--color-beige_light);
+    transform: scale(110%);
+}
+
 .schedule-active:hover::after {
+    content: "~ просим не опаздывать ~";
+    position: absolute;
+    top: 100%;
+    color: var(--color-green);
+    font-size: 14px;
+}
+
+.schedule-active:active::after {
     content: "~ просим не опаздывать ~";
     position: absolute;
     top: 100%;
