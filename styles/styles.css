@@ -76,7 +76,6 @@
     flex-direction: column;
     gap: 30px;
     padding: 40px 0;
-    text-transform: lowercase;
     line-height: 22px;
     font-weight: 300;
 }
@@ -388,6 +387,61 @@
     max-width: 100%;
     max-height: 100%;
     padding: 25px 20px;
+    border: 0;
+}
+
+.program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 30px 20px;
+    background-color: var(--color-beige_light);
+}
+
+.program-text {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 260px;
+    height: 100%;
+    padding: 15px 0;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background: linear-gradient(var(--color-beige_light)) padding-box,
+    linear-gradient(45deg, #9fad93 10%, #714739 100%) border-box;
+    transition: all 0.5s ease;
+}
+
+.schedule:hover {
+    background: var(--color-green);
+    color: var(--color-beige_light);
+    transform: scale(110%);
+}
+
+.schedule-active:hover::after {
+    content: "~ просим не опаздывать ~";
+    position: absolute;
+    top: 100%;
+    color: var(--color-green);
+    font-size: 14px;
+}
+
+.time-event {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.text-event {
+    font-size: 17px;
+    font-weight: 300;
 }
 
 
