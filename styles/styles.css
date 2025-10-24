@@ -63,7 +63,7 @@
     font-size: 100px;
     font-weight: 200;
     letter-spacing: 10px;
-    padding-left: 20px;
+    padding-left: 10px;
     color: var(--color-green);
 }
 
@@ -147,8 +147,10 @@
     padding: 5px 0;
 }
 
-
 .dress_code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 30px 0 0;
     background-color: var(--color-beige_light);
 }
@@ -156,9 +158,12 @@
 .logo-dress_code {
     text-align: center;
     font-family: "Monsieur La Doulaise", cursive;
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 45px;
     letter-spacing: 3px;
+}
+
+.dress-code__title {
+    font-weight: 500;
 }
 
 .ellipse-container, .circle-container {
@@ -166,7 +171,10 @@
     justify-content: center;
     flex-direction: row;
     gap: 15px;
-    padding: 15px;
+    margin: 15px;
+    max-width: 370px;
+    width: 100%;
+    height: 100%;
 }
 
 .ellipse {
@@ -351,7 +359,7 @@
 
 .form-title {
     font-family: "Monsieur La Doulaise", cursive;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 400;
 }
 
@@ -421,8 +429,6 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    width: 260px;
-    height: 100%;
     padding: 15px 0;
 }
 
@@ -440,7 +446,25 @@
     font-weight: 300;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 30px 20px 30px;
+    background-color: var(--color-green);
+    color: var(--color-beige_light)
+}
 
+.welcome__text {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.name__text {
+    font-size: 25px;
+    word-spacing: 6px;
+}
 
 
 
