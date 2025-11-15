@@ -12,6 +12,7 @@ body {
     color: var(--color-brown);
     height: 100%;
     width: 100%;
+    min-width: 350px;
     padding: 0;
     margin: 0;
 }
