@@ -39,7 +39,6 @@
     display: block;
     width: 100%;
     height: auto;
-    transition: all 0.3s ease;
 }
 
 .date {
@@ -116,10 +115,10 @@
     background-image: url('../images/IMG_9226.PNG');
     background-color: var(--color-green);
     background-repeat: no-repeat;
-    background-size: 110% auto; /* Фиксируем ширину, высота auto */
+    background-size: 110% auto;
     background-position: center;
     height: 40vh;
-    min-height: 335px;
+    min-height: 379px;
 }
 
 .countdown {
@@ -473,78 +472,6 @@
 .name__text {
     font-size: 25px;
     word-spacing: 6px;
-}
-
-@media (min-width: 768px) {
-    .description {
-        font-size: 40px;
-    }
-
-    .header-name {
-        font-size: 50px;
-    }
-
-    .cover__img {
-        max-width: 830px;
-        max-height: 880px;
-        object-fit: cover;
-        padding: 100px 100px 0;
-    }
-
-    .date {
-        font-size: 24px;
-    }
-
-    .about {
-        gap: 40px;
-        padding: 20px 40px;
-    }
-
-    .about-title_left {
-        font-size: 150px;
-        padding-left: 50px;
-    }
-
-    .about-title_right {
-        font-size: 30px;
-    }
-
-    .about-text {
-        font-size: 20px;
-    }
-
-    .event_text-left {
-        font-size: 30px;
-    }
-
-    .event_text-right {
-        font-size: 150px;
-    }
-
-    .calendar {
-        background-size: 700px auto;
-        height: 50vh;
-    }
-}
-
-@media (min-width: 1200px) {
-    .description {
-        font-size: 50px;
-    }
-
-    .header-name {
-        font-size: 50px;
-    }
-
-    .cover__img {
-        max-width: 1050px;
-        max-height: 1090px;
-        object-fit: cover;
-        padding: 100px 100px 0;
-    }
-    .date {
-        font-size: 28px;
-    }
 }
 
 
